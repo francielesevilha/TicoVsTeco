@@ -8,10 +8,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
 
 
-        $servername = "sql213.byethost12.com";
-        $username = "b12_36347631";
-        $password = "JNTS2004#20j";
-        $dbname = "b12_36347631_Jogo_da_Velha";
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "Jogo_da_Velha";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
