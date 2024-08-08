@@ -1,0 +1,7 @@
+CREATE DATABASE Jogo_da_Velha;
+
+CREATE TABLE ranking(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL, 
+    pontuacao INT NOT NULL
+);
